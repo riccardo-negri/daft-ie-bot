@@ -1,0 +1,6 @@
+__pycache__
+venv
+bot_secrets.py
+already_seen_listings.txt
+log.txt
+*.sh
