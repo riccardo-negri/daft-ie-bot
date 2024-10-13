@@ -33,5 +33,32 @@ To run the bot, simply run the `x.py` file:
 python3 x.py
 ```
 
+## Log Example
+```
+----------------------------------------
+ID        : 5871803
+Title     : Apartment 39, Virginia Hall, Belgard Square, Belga, Tallaght, Dublin 24
+Sections  : Property, Sharing, Apartment
+Price     : €750 per month
+Link      : http://www.daft.ie/share/apartment-39-virginia-hall-belgard-square-belga-tallaght-dublin-24/5871803
+Available From : Immediately
+Available For  : 1 Year +
+----------------------------------------
+Not interesting, not sending email.
+----------------------------------------
+ID        : 5882296
+Title     : the crescent, carrickmines manor, Carrickmines, Dublin 18
+Sections  : Property, Sharing, Apartment
+Price     : €1,100 per month
+Link      : http://www.daft.ie/share/the-crescent-carrickmines-manor-carrickmines-co-dublin/5882296
+Available From : Nov 1st, 2024
+Available For  : 3 Months
+----------------------------------------
+Does not match any exclude criteria. Sending email!
+Email sent successfully!
+----------------------------------------
+```
+The email sent will contain the same information as the log.
+
 ## Credits
 Based on [daftlistings](https://github.com/AnthonyBloomer/daftlistings).
